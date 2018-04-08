@@ -1,0 +1,88 @@
+'.text.html':
+  'ngRouterOutlet':
+    'prefix': 'ng-rtRouterOutlet'
+    'description': 'Angular Directive RouterOutlet (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/router/RouterOutlet'
+    'body': """
+    <router-outlet
+      (activate)='onActivate($event)'
+      (deactivate)='onDeactivate($event)'></router-outlet>
+    """
+
+  'ngRouterLink':
+    'prefix': 'ng-rtLink'
+    'description': 'Angular Directive RouterLink (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/router/RouterLink'
+    'body': '[routerLink]="[\'${1:^^^^^^^^^^}\']" '
+
+  'ngRouterLinkActive':
+    'prefix': 'ng-rtLinkActive'
+    'description': 'Agular Directive RouterLinkActive (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/router/RouterLinkActive'
+    'body': 'routerLinkActive="${1:^^^^^^^^^^}" '
+
+  'NgFor':
+    'prefix': 'ngFor'
+    'description': 'Angular Directive NgFor: index (current loop) and first, last, even, odd (boolean value indicating whether the item)'
+    'descriptionMoreURL': 'https://angular.io/api/common/NgForOf'
+    'body': '*ngFor="let ${2:^^^^^^^^^^} of ${1:^^^^^^^^^^}; let i = index" '
+
+  'NgIf':
+    'prefix': 'ngIf'
+    'description': 'Angular Directive NgIf (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/common/NgIf'
+    'body': '*ngIf="${1:^^^^^^^^^^}" '
+
+  'NgModel':
+    'prefix': 'ngModel'
+    'description': 'Angular Directive NgModel (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/forms/NgModel'
+    'body': '[(ngModel)]="${1:^^^^^^^^^^}" '
+
+  'NgStyle':
+    'prefix': 'ngStyle'
+    'description': 'Angular Directive NgStyle (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/common/NgStyle'
+    'body': '[ngStyle]="{ \'${1:^^^^^^^^^^}\' :${2:^^^^^^^^^^} }" '
+
+  'NgClass':
+    'prefix': 'ngClass'
+    'description': 'Angular Directive NgClass (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/common/NgClass'
+    'body': '[ngClass]="{ \'${1:^^^^^^^^^^}\' :${2:^^^^^^^^^^} }" '
+
+  'NgSwitch':
+    'prefix': 'ngSwitch'
+    'description': 'Angular Directive NgSwitch (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/common/NgSwitch'
+    'body': """
+    <div [ngSwitch]="${1:^^^^^^^^^^}" $7>
+      <div *ngSwitchCase="\'${2:^^^^^^^^^^}\'" $8> ${3:^^^^^^^^^^} </div>
+      <div *ngSwitchCase="\'${4:^^^^^^^^^^}\'" $9> ${5:^^^^^^^^^^} </div>
+      <div *ngSwitchDefault $10> ${6:^^^^^^^^^^} </div>
+    </div>
+    $11
+    """
+
+  'Ng_Form':
+    'prefix': 'ng_propty-formGroup_event-submit'
+    'description': '[formGroup]="name of the object FormGroup" ang (ngSubmit)="var or function/method" '
+    'body': '\n   [formGroup]="${1:^^^^^^^^^^}" (ngSubmit)="${2:^^^^^^^^^^}" \n'
+
+  'FormControlName':
+    'prefix': 'ng-FormControlName'
+    'description': 'Angular Directive FormControlName (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/forms/FormControlName'
+    'body': 'formControlName="${1:^^^^^^^^^^}" '
+
+  'FormGroupName':
+    'prefix': 'ng-FormGroupName'
+    'description': 'Angular Directive FormGroupName (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/forms/FormGroupName'
+    'body': 'formGroupName="${1:^^^^^^^^^^}" '
+
+  'FormArrayName':
+    'prefix': 'ng-FormArrayName'
+    'description': 'Angular Directive FormArrayName (STABLE)'
+    'descriptionMoreURL': 'https://angular.io/api/forms/FormArrayName'
+    'body': 'formArrayName="${1:^^^^^^^^^^}" '

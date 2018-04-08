@@ -1,0 +1,27 @@
+{
+  "name": "ng-ts-snippets",
+  "version": "1.0.0",
+  "description": "Angular + TypeScript code abbreviations snippets for Atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectsZ/ng-ts-snippets.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "abbreviations",
+    "snippets"
+  ],
+  "author": {
+      "name": "Fred Pizarro",
+      "url": "https://github.com/FredPizarro"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ProjectsZ/ng-ts-snippets/issues"
+  },
+  "homepage": "https://github.com/ProjectsZ/ng-ts-snippets#readme"
+}
